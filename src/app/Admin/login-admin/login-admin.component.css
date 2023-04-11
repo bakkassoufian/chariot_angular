@@ -1,0 +1,131 @@
+.container{
+  background-image: url("../../../assets/polygon.svg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -400px;
+}
+
+.logqr{
+  margin-left: 12px;
+}
+
+.logo{
+  position: absolute;
+  height: 200px;
+  margin-left: 800px;
+  margin-top: 20px;
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.log{
+  position: absolute;
+  margin-left: 1300px;
+  margin-top: 80px;
+}
+.login {
+  width: 320px;
+  padding-top: 156px;
+}
+
+.login__field {
+  padding: 20px 0px;
+  margin-left: -80px;
+  position: relative;
+}
+
+.login__icon {
+  position: absolute;
+  top: 30px;
+  color: #7875B5;
+}
+
+.login__input {
+  color: #003294;
+  border: none;
+  border-bottom: 2px solid #3F7AEE;
+  background: none;
+  padding-left: 0px;
+  padding-right: 100px;
+  font-weight: 600;
+  transition: .2s;
+  font-family: 'fangsong';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 122.69%;
+  /* identical to box height, or 43px */
+  letter-spacing: 0.015em;
+}
+
+.login__input:active,
+.login__input:focus,
+.login__input:hover {
+  outline: none;
+  border-bottom-color: #6A679E;
+}
+
+.login__submit {
+  background: #003A98;
+  font-size: 14px;
+  margin-top: 30px;
+  margin-left: 25px;
+  border-radius: 26px;
+  border: 1px solid;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  color: #F9FBFF;
+  box-shadow: 0px 2px 2px #003A98;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.button__text{
+  margin: 3px 25px 3px 25px;
+  padding: 10px 10px 10px 10px;
+}
+
+.login__submit:active,
+.login__submit:focus,
+.login__submit:hover {
+  border-color: #003A98;
+  outline: none;
+}
+
+
+.button__icon {
+  font-size: 24px;
+  margin-left: auto;
+  color: #003A98;
+}
+.social-login {
+  position: absolute;
+  height: 140px;
+  width: 160px;
+  text-align: center;
+  bottom: 0px;
+  right: 0px;
+  color: #fff;
+}
+
+.welecom{
+  position: absolute;
+  margin-left: 450px;
+  margin-top: 250px;
+
+  font-family: 'Arial Black';
+  font-size: 90px;
+  line-height: 125.69%;
+
+  letter-spacing: 0.015em;
+
+  color: #FFFFFF;
+}
