@@ -1,0 +1,31 @@
+.right{
+}
+
+
+.right{
+  padding-top: 25px;
+  margin-left: 22%;
+}
+.col-sm{
+  padding-bottom: 25px;
+
+}
+
+#ajouter{
+  width: 100px;
+  height: 35px;
+  margin-left: 85%;
+}
+
+.card{
+  background-color: #ECF2FF;
+  width: 15rem;
+}
+
+#modifier{
+  float: right;
+}
+
+#delete{
+  float: left;
+}

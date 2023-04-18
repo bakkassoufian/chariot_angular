@@ -7,7 +7,7 @@
 }
 
 .logqr{
-  margin-left: -60px;
+  margin-left: -22%;
 }
 
 .qr{
@@ -32,8 +32,8 @@
 
 .log{
   position: absolute;
-  margin-left: 1300px;
-  margin-top: 80px;
+  margin-left: 100%;
+  margin-top: 7%;
 }
 .login {
   width: 320px;

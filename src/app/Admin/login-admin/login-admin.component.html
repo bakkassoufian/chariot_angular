@@ -8,7 +8,7 @@
   <title>Document</title>
 </head>
 <body>
-<img class="logo" src="../../../assets/logo.png">
+<img class="logo" src="assets/logo.png">
 
 <div class="container">
   <p class="welecom">Welcome ! </p>
@@ -20,13 +20,13 @@
       <div class="login__field">
         <input type="password" class="login__input" placeholder="Password">
       </div>
-      <button class="button login__submit">
-        <span class="button__text">Connexion</span>
+      <button  class="button login__submit">
+        <span [routerLink]="['/admin/categorie']"  class="button__text">Connexion</span>
       </button>
     </form>
     <br>
     <br>
-    <h6 class="logqr">------ Espace Admin ------</h6>
+    <h2 class="logqr">------ Espace Admin ------</h2>
   </div>
 </div>
 </body>

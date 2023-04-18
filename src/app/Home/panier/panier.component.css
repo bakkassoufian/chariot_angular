@@ -1,8 +1,13 @@
 .rectangle1{
-  height: 90%;
-  width: 45%;
+  height:400px;
+  width:600px;
   float: right;
-  padding-top:2% ;
+  margin-top: 13%;
+}
+.logo{
+  position: absolute;
+  height: 35%;
+  margin-left: 5%;
 }
 
 .rectangle2{
@@ -11,36 +16,28 @@
   float: left;
   position: relative;
 }
-.rectangle3{
-  margin-top: -10%;
-  margin-left: 1.8%;
-  height: 29.6%;
-  float: left;
-}
+
 
 .titre{
   margin-left: 2%;
   margin-bottom: -5%;
   float: left;
-
 }
 
-.titre2{
-  margin-right: 31%;
-  margin-bottom: -5%;
-  float: right;
-}
-
-.text1{
-  margin-top: 40.5%;
-  margin-left: 4%;
+.text{
+  margin-left: 60%;
   position: absolute;
+  margin-top: 20% ;
+
 }
 
-.text2{
-  margin-top: 40.5%;
-  margin-left: 35%;
-  position: absolute;
+#paiement{
+  margin-left: 155%;
+  margin-top: -5%;
+}
+
+.text3{
+  font-weight: bold;
 }
 @import url('https://fonts.googleapis.com/css?family=Poppins:900i');
 
